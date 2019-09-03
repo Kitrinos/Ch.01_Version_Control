@@ -98,12 +98,12 @@ Each student has 10 lines of code to play with!
 
 
 ------------------Student 10------------------
-This is the testing branch
+Hello Mr.Hermon
 
 Wolfs, Wolfs, Wolfs, Wolfs.
 LOl
 
-
+No regurtzzzzzzzz at allla lol lol lol
 
 
 ------------------Student 11------------------
