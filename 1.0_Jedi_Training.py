@@ -8,7 +8,7 @@ in your local or remote repository
 
 Define Branching: when you make a copy but in the same place as the master
 
-Define Committing: you make a save but you also make a comment when you save.
+Define Committing: you make a save but you also make a comment when you save. its also command K
 
 Define Merging: lets you put your forking history back together
 
