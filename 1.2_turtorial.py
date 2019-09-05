@@ -5,94 +5,140 @@
 # Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 
 '''
+# turtle.exitonclick() #Keeps pycharm window open
+
 # import turtle
-# yoda=turtle.Turtle()
-# screen=turtle.Screen() # makes a screen object
-# screen.bgcolor('black') # colors the screen
-# yoda.pensize(3) # width of pen line
-# yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-# yoda.color("#00FF00")
-# yoda.circle(100)  #head
-# yoda.penup()
-# yoda.setpos(50,185) #right ear
-# yoda.pendown()
-# yoda.goto(200,210)
-# yoda.goto(88,145)
-# yoda.penup()
-# yoda.setpos(-50,185)  #left ear
-# yoda.pendown()
-# yoda.goto(-200,210)
-# yoda.goto(-88,145)
-# yoda.penup()
-# yoda.setpos(200,-300)
-# yoda.pendown()
-# yoda.pencolor('#00FF00')
-# yoda.write('Sign Your Name Here',font=("Arial", 12, "normal"))
+# toka = turtle.Turtle()
+# toka.shape('turtle')
+# screen=turtle.Screen() #makes screen an object
+# screen.bgcolor('white')
 #
+# toka.speed(10) #the drawing speed
+#
+# #This is the head
+# toka.penup()
+# toka.goto(120,-50)
+# toka.pendown()
+# toka.circle(70)
+#
+# #this is the left ear
+# toka.penup()
+# toka.goto(50,30)
+# toka.pendown()
+# toka.goto(90,150)
+#
+# # #this is the left ear
+# toka.goto(100,85)
+#
+# # #This is the right ear
+# toka.penup()
+# toka.goto(150,80)
+# toka.pendown()
+# toka.goto(150,150)
+# toka.goto(180,55)
+#
+# #this is the left eye
+# toka.penup()
+# toka.goto(90,10)
+# toka.pendown()
+# toka.begin_fill()
+# toka.color('light grey')
+# toka.circle(20)
+# toka.end_fill()
+# #this is the right eye
+# toka.penup()
+# toka.goto(150,10)
+# toka.pendown()
+# toka.begin_fill()
+# toka.color('light grey')
+# toka.circle(20)
+# toka.end_fill()
+#
+# #this is the mouth
+# toka.penup()
+# toka.goto(100,-10)
+# toka.pendown()
+# toka.color('black')
+# toka.goto(140,-10)
+#
+# #this is the left body line
+# toka.penup()
+# toka.color('black')
+# toka.goto(90,-40)
+# toka.pendown()
+# toka.goto(80,-120)
+#
+# #this is the bottom line
+# toka.goto(150,-120)
+#
+# #this is the left body line
+# toka.goto(150,-40)
+#
+# #this will draw its tail
+# toka.penup()
+# toka.goto(80,-120)
+
 # turtle.exitonclick() #Keeps pycharm window open
 
 import turtle
 toka = turtle.Turtle()
+
 toka.shape('turtle')
 screen=turtle.Screen() #makes screen an object
-screen.bgcolor('tan')
+screen.bgcolor('black')
 
-toka.speed(10) #the drawing speed
+toka.speed(20) #the drawing speed
 
-#This is the head
+toka.begin_fill()
+toka.color('yellow')
+toka.right(60)
+toka.forward(200) # draw base
+toka.right(120)
+toka.forward(200)
+toka.right(120)
+toka.forward(200)
+toka.done()
+toka.end_fill()
+toka.color('blue')
+toka.left(-60)
+
+toka.goto(0,-20)
+
+#this is the circle
+toka.begin_fill()
+toka.color('grey')
+toka.circle(90)
+toka.end_fill()
+
+#turtle first plip
 toka.penup()
-toka.goto(120,-50)
+toka.color('blue')
+toka.goto(50,70)
 toka.pendown()
-toka.circle(70)
-
-#this is the left ear
-toka.penup()
-toka.goto(50,30)
-toka.pendown()
-toka.goto(90,150)
-
-# #this is the left ear
-toka.goto(100,80)
-
-# #This is the right ear
-toka.penup()
-toka.goto(150,80)
-toka.pendown()
-toka.goto(150,150)
-toka.goto(180,50)
-
-#this is the left eye
-toka.penup()
-toka.goto(90,10)
-toka.pendown()
+toka.begin_fill()
+toka.color('dark grey')
 toka.circle(20)
+toka.end_fill()
 
-#this is the right eye
+#the second plip
+toka.color('blue')
 toka.penup()
-toka.goto(150,10)
-toka.pendown()
-toka.circle(20)
+toka.goto(50,40)
+toka.begin_fill()
+toka.color('dark grey')
+toka.circle(10)
+toka.end_fill()
 
-#this is the mouth
+#the smallest plip
 toka.penup()
-toka.goto(100,-10)
-toka.pendown()
-toka.goto(140,-10)
-
-#this is the left body line
+toka.begin_fill()
+toka.color('dark grey')
+toka.goto(30,120)
+toka.circle(10)
+toka.end_fill()
 toka.penup()
-toka.goto(90,-40)
-toka.pendown()
-toka.goto(80,-120)
-
-#this is the bottom line
-toka.goto(150,-120)
-
-#this is the left body line
-toka.goto(150,-40)
-
-#this will draw its tail
-toka.penup()
-toka.goto(80,-120)
+#erases toka
+toka.color('grey')
+toka.goto(0,50)
 
 turtle.exitonclick() #Keeps pycharm window open
