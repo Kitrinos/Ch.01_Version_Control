@@ -30,7 +30,6 @@ toka.forward(400)
 toka.right(90)
 toka.forward(90)
 toka.end_fill()
-
 toka.right(90)
 toka.forward(200)
 toka.left(90)
@@ -39,7 +38,7 @@ toka.right(90)
 
 #this is the triange
 toka.begin_fill()
-toka.color('yellow')
+toka.color('light blue')
 toka.right(60)
 toka.forward(200) # draw base
 toka.right(120)
