@@ -88,6 +88,6 @@ toka.penup()
 toka.color('white')
 toka.goto(-150,50)
 #writes Name
-toka.write('Nellie',font=("Arial", 12, "normal"))
+toka.write('Nellie Leaverton',font=("Arial", 12, "normal"))
 
 turtle.exitonclick() #Keeps pycharm window open
