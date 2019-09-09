@@ -35,7 +35,7 @@ toka.forward(200)
 toka.left(90)
 toka.forward(150)
 toka.right(90)
-
+#needed this to commmit the code
 #this is the triange
 toka.begin_fill()
 toka.color('light blue')
@@ -86,6 +86,7 @@ toka.end_fill()
 toka.penup()
 #erases toka
 toka.color('grey')
-toka.goto(0,50)
+toka.goto(-150,50)
+toka.write('Nellie Leaverton',font=("Arial", 12, "normal"))
 
 turtle.exitonclick() #Keeps pycharm window open
